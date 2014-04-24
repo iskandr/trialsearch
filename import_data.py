@@ -70,10 +70,10 @@ class Doc(object):
 		
 # accumulate update query from a collection of XML files
 docs = []
-for filename in filenames:
+for i, filename in enumerate(filenames):
 
 	try:
-		print "Processing", filename 
+		print "Processing #%d: %s" % (i, filename)
 		doc = Doc(filename)
 		doc.add('.//id_info/nct_id')
 		doc.add('.//id_info/org_study_id', name="org_id")
