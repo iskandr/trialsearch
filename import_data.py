@@ -44,7 +44,7 @@ class Doc(object):
 		assert field is not None, \
 			"%s not found in XML document %s" % (xpath, self.filename)
 		
-		text = field.text
+		text = field.text.replace('\'', '"')
 		print text
 		self.fields.append( (name, text) )
 
@@ -64,7 +64,7 @@ class Doc(object):
 			]
 		joined = "\n\t".join(field_strings)
 		return "<doc>\n\t{0}\n</doc>".format (joined)
-		
+
 	def __repr__(self):
 		return str(self)
 		
