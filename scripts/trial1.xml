@@ -1,4 +1,4 @@
 <add><doc>
-  <field name="id">78</field>
-  <field name="text">Cancer</field>
+  <field name="nct_id">78</field>
+  <field name="official_title">Cancer</field>
 </doc></add>
