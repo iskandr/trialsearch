@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="462">
+  <!-- This xml conforms to an XML Schema at:
+    http://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    http://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on April 23, 2014</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>http://clinicaltrials.gov/show/NCT00002554</url>
+  </required_header>
+  <id_info>
+    <org_study_id>832.00</org_study_id>
+    <secondary_id>CDR0000063421</secondary_id>
+    <secondary_id>NCI-V94-0393</secondary_id>
+    <nct_id>NCT00002554</nct_id>
+  </id_info>
+  <brief_title>Monoclonal Antibody Followed by Bone Marrow Transplantation in Treating Patients With Acute Myelogenous Leukemia in Remission or First Relapse</brief_title>
+  <official_title>RADIOLABELED BC8 (ANTI-CD45) ANTIBODY COMBINED WITH BUSULFAN AND CYCLOPHOSPHAMIDE AS TREATMENT FOR ACUTE MYELOGENOUS LEUKEMIA IN FIRST OR SECOND REMISSION OR UNTREATED FIRST RELAPSE FOLLOWED BY HLA-IDENTICAL RELATED MARROW TRANSPLANTATION</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fred Hutchinson Cancer Research Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fred Hutchinson Cancer Research Center</source>
+  <oversight_info>
+    <authority>United States: Federal Government</authority>
+    <authority>United States: Food and Drug Administration</authority>
+    <authority>United States: Institutional Review Board</authority>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      RATIONALE: Monoclonal antibodies can locate cancer cells and either kill them or deliver
+      cancer-killing substances to them without harming normal cells. Monoclonal antibody combined
+      with a radioactive substance and given prior to bone marrow transplantation may kill more
+      cancer cells.
+
+      PURPOSE: Phase II trial to study the effectiveness of radiolabeled monoclonal antibody given
+      prior to bone marrow transplantation in treating patients with acute myelogenous leukemia.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      OBJECTIVES: I. Determine the overall and disease-free survival and toxicity associated with
+      busulfan/cyclophosphamide (BU/CTX) plus 131I-labeled BC8 antibody (131I-BC8) followed by an
+      HLA-identical related marrow transplant in patients with acute myelogenous leukemia in first
+      or second remission or untreated first relapse. II. Study factors that may influence the
+      biodistribution of 131I-BC8 in this patient population, including marrow cellularity, the
+      level of antigen expression by leukemic cells (in relapsed patients), and the degree of
+      antigen saturation by antibody. III. Determine the efficacy of BU/CTX in patients in first
+      remission unable to receive radiolabeled antibody, e.g., patients who are HAMA-positive,
+      those not tolerating antibody test infusion, those with unfavorable antibody
+      biodistribution, or those for whom antibody is unavailable.
+
+      OUTLINE: Radioimmunotherapy plus 2-Drug Cytoreductive Chemotherapy followed by Bone Marrow
+      Transplantation with, as indicated, CNS Therapy. Iodine-131-labeled Monoclonal Antibody BC8
+      (anti-CD45), 131I-BC8; plus Busulfan, BU, NSC-750; Cyclophosphamide, CTX, NSC-26271;
+      followed by Allogeneic Bone Marrow, ABM; with, as indicated, Intrathecal Methotrexate, IT
+      MTX, NSC-740.
+
+      PROJECTED ACCRUAL: It is anticipated that 30 patients in first remission, 30 patients in
+      untreated first relapse, and 15 patients in second remission will be accrued over 3 years.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>November 1993</start_date>
+  <completion_date type="Actual">December 1999</completion_date>
+  <primary_completion_date type="Actual">December 1999</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Primary Purpose: Treatment</study_design>
+  <enrollment type="Anticipated">30</enrollment>
+  <condition>Leukemia</condition>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>busulfan</intervention_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>cyclophosphamide</intervention_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>methotrexate</intervention_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>allogeneic bone marrow transplantation</intervention_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>radioimmunotherapy</intervention_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        DISEASE CHARACTERISTICS: Acute myelogenous leukemia in first or second remission or
+        untreated first relapse Documented CD45 expression by leukemic cells required for patients
+        in relapse Phenotyping not required for patients in remission; such patients may have
+        leukemia previously documented to be CD45 negative Circulating blast count less than
+        10,000 (control with hydroxyurea or similar agent allowed) Genotypically or phenotypically
+        HLA-matched related marrow donor required No donors mismatched for 1 or more HLA antigens
+        No psychologic, physiologic, or medical contraindication to donation No high risk for
+        anesthesia because of age or medical problems No HIV seropositive donors
+
+        PATIENT CHARACTERISTICS: Age: 16 to 55 Performance status: Not specified Life expectancy:
+        Greater than 60 days Hematopoietic: Not applicable Hepatic: Bilirubin less than 1.5 mg/dl
+        No risk of developing veno-occlusive disease of the liver (i.e., current evidence of
+        hepatitis as manifested by SGOT greater than 1.5 x ULN) Renal: Creatinine less than 2.0
+        mg/dl Other: No HIV seropositivity No major infection
+
+        PRIOR CONCURRENT THERAPY: See Disease Characteristics No prior radiotherapy to maximally
+        tolerated levels for any normal organ
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>16 Years</minimum_age>
+    <maximum_age>55 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John Pagel, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Fred Hutchinson Cancer Research Center</affiliation>
+  </overall_official>
+  <removed_countries>
+    <country>United States</country>
+  </removed_countries>
+  <link>
+    <url>http://cancer.gov/clinicaltrials/FHCRC-832.00</url>
+    <description>Clinical trial summary from the National Cancer Institute's PDQ® database</description>
+  </link>
+  <verification_date>March 2010</verification_date>
+  <lastchanged_date>March 29, 2010</lastchanged_date>
+  <firstreceived_date>November 1, 1999</firstreceived_date>
+  <keyword>recurrent adult acute myeloid leukemia</keyword>
+  <keyword>adult acute myeloid leukemia in remission</keyword>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Leukemia</mesh_term>
+    <mesh_term>Leukemia, Myeloid, Acute</mesh_term>
+    <mesh_term>Leukemia, Myeloid</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Antibodies, Monoclonal</mesh_term>
+    <mesh_term>Busulfan</mesh_term>
+    <mesh_term>Cyclophosphamide</mesh_term>
+    <mesh_term>Methotrexate</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

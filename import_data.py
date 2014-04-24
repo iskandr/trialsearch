@@ -5,6 +5,7 @@ from os.path import exists, isdir, join, split
 import cgi
 import xml.etree.ElementTree as ET
 import requests
+import os
 import subprocess
 
 parser = argparse.ArgumentParser(description='Load clinicaltrials.gov XML files into solr search index')
@@ -64,6 +65,9 @@ class Doc(object):
 		joined = "\n\t".join(field_strings)
 		return "<doc>\n\t{0}\n</doc>".format (joined)
 		
+	def __repr__(self):
+		return str(self)
+		
 # accumulate update query from a collection of XML files
 docs = []
 for filename in filenames:
@@ -90,21 +94,30 @@ for filename in filenames:
 		print e
 		print "Skipping %s due to parsing error" % filename
 
+print docs
 query = "<add>\n%s\n</add>" % "\n".join(str(doc) for doc in docs)
 
-import cStringIO
+
 request_url = join('http://' + args.host + ":" + args.port, args.solr_command)
 print "Request URL:", request_url
 #headers = {'Content-Type' : 'text/xml'}
 #r = requests.post(request_url, headers = headers, data = cStringIO.StringIO(query))
 #r.raise_for_status()
 
-shell_command = [
-	"curl",
-	request_url, 
-	"-H", "\"Content-Type: text/xml\"",
-	"--data-binary", "'%s'" % query 
-]
-shell_command_string = " ".join(shell_command)
-import os 
-os.system(shell_command_string)
+def mk_shell_command(query):
+	command_list = [
+		"curl",
+		request_url, 
+		"-H", "\"Content-Type: text/xml\"",
+		"--data-binary", "'%s'" % query 
+	]
+	return " ".join(command_list)
+
+def send(query):
+	cmd = mk_shell_command(query)
+	print
+	print "Shell command:", cmd 
+	os.system(cmd)
+
+send(query)
+send("<commit />")
