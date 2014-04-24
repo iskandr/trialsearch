@@ -79,7 +79,7 @@ for filename in filenames:
 		doc.add('.//id_info/org_study_id', name="org_id")
 		doc.add('.//required_header/url')
 		doc.add('official_title', name = 'title')
-		doc.add_multiple('.//agency', name = 'agency')
+		doc.add_multiple('.//agency', name = 'agencies')
 		doc.add('.//brief_summary/textblock', name='summary')
 		doc.add('.//overall_status', name = 'status')
 		doc.add('.//start_date')
