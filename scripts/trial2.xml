@@ -1,4 +1,15 @@
 <add><doc>
-  <field name="nct_id">82</field>
-  <field name="official_title">Vaccine</field>
+  <field name="nct_id">78321321</field>
+  <field name="org_id">321321321</field>
+  <field name="url">http://www.google.com</field>
+  <field name="title">Hello hello</field>
+  <field name="agencies">Agencies and more agencies</field>
+  <field name="summary">This is a summary</field>
+  <field name="status">Open</field>
+  <field name="start_date">February 2007</field>
+  <field name="completion_date">March 2009</field>
+  <field name="criteria">People who are awesome</field>
+  <field name="gender">Both</field>
+  <field name="minimum_age">Young people</field>
+  <field name="maximum_age">Old people</field>
 </doc></add>

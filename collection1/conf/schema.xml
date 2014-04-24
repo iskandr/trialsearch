@@ -121,12 +121,18 @@
      installations. See the <uniqueKey> declaration below where <uniqueKey> is set to "id".
    -->
    <field name="nct_id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
-
-   <!-- Main body of document extracted by SolrCell.
-        NOTE: This field is not indexed by default, since it is also copied to "text"
-        using copyField below. This is to save space. Use this field for returning and
-        highlighting document content. Use the "text" field to search the content. -->
-   <field name="official_title" type="text_general" indexed="false" stored="true" multiValued="true"/>
+   <field name="org_id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+   <field name="url" type="lowercase" indexed="true" stored="true" required="true" multiValued="false" />
+   <field name="title" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="agencies" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="summary" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="status" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="start_date" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="completion_date" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="criteria" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="gender" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="minimum_age" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="maximum_age" type="string" indexed="true" stored="true" multiValued="false"/>
 </fields>
 
 
@@ -173,5 +179,37 @@
         <filter class="solr.LowerCaseFilterFactory"/>
       </analyzer>
     </fieldType>
+
+    <!-- lowercases the entire field value, keeping it as a single token.  -->
+    <fieldType name="lowercase" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <tokenizer class="solr.KeywordTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+    </fieldType>
+
+    <!-- The format for this date field is of the form 1995-12-31T23:59:59Z, and
+         is a more restricted form of the canonical representation of dateTime
+         http://www.w3.org/TR/xmlschema-2/#dateTime
+         The trailing "Z" designates UTC time and is mandatory.
+         Optional fractional seconds are allowed: 1995-12-31T23:59:59.999Z
+         All other components are mandatory.
+
+         Expressions can also be used to denote calculations that should be
+         performed relative to "NOW" to determine the value, ie...
+
+               NOW/HOUR
+                  ... Round to the start of the current hour
+               NOW-1DAY
+                  ... Exactly 1 day prior to now
+               NOW/DAY+6MONTHS+3DAYS
+                  ... 6 months and 3 days in the future from the start of
+                      the current day
+
+         Consult the DateField javadocs for more information.
+
+         Note: For faster range queries, consider the tdate type
+      -->
+    <fieldType name="date" class="solr.TrieDateField" precisionStep="0" positionIncrementGap="0"/>
  </types>
 </schema>
